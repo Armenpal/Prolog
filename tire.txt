@@ -1,0 +1,43 @@
+
+
+				CPS721
+			      Assignment 5	
+
+Goal States 0-13
+
+0)
+?- solve_problem(0, L, 7).
+L = [open(trunk)]
+Yes (0.00s cpu, solution 1, maybe more)
+
+1) 
+?- solve_problem(1, L, 7).
+L = [fetch(wrench, trunk), fetch(jack, trunk), open(trunk)]
+Yes (0.00s cpu, solution 1, maybe more)
+
+2)
+?- solve_problem(2, L, 7).
+L = [loosen(nuts4, hub4), fetch(wrench, trunk), open(trunk)]
+Yes (0.00s cpu, solution 1, maybe more)
+
+3)
+?- solve_problem(3, L, 7).
+L = [loosen(nuts1, hub1), fetch(wrench, trunk), fetch(jack, trunk), open(trunk)]
+Yes (0.00s cpu, solution 1, maybe more)
+
+4)
+?- solve_problem(4, L, 7).
+L = [jackUp(hub1), loosen(nuts1, hub1), fetch(wrench, trunk), fetch(jack, trunk), open(trunk)]
+Yes (0.03s cpu, solution 1, maybe more)
+
+5)
+?- solve_problem(5, L, 7).
+L = [remove(wheel4, hub4), remove(nuts1, hub4), jackUp(hub4), fetch(wrench, trunk), fetch(jack, trunk), open(trunk)]
+Yes (0.09s cpu, solution 1, maybe more)
+
+6)
+?- solve_problem(6, L, 9).
+L = [putOn(wheel5, hub4), remove(wheel4, hub4), remove(nuts1, hub4), jackUp(hub4), fetch(wrench, trunk), fetch(wheel5, trunk), fetch(jack, trunk), open(trunk)]
+Yes (26.11s cpu, solution 1, maybe more)
+
+7)

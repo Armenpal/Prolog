@@ -1,0 +1,1 @@
+These files contain prolog programs used in CPS721-Artificial Intelligence 1 assignment 5
